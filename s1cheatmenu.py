@@ -25,18 +25,18 @@ import time
 commands = [
     ("Free Camera", ["freecam"]),
     ("Save Game", ["save"]),
-    ("Give Item", ["give baggie 20", "give jar 10", "give extralonglifesoil 10", "give highqualitypseudo 10", "give goldenskateboard"]),
+    ("Give Item", ["give baggie 20", "give jar 10", "give extralonglifesoil 10", "give highqualitypseudo 10", "give goldenskateboard", "give spraypaint", "give graffiticleaner", "give goldbar", "give pgr", "give fertilizer", "give speedgrow"]),
     ("Give ingredient", ["give viagra 20", "give cuke 20", "give banana 20", "give paracetamol 20", "give donut 20", "give mouthwash 20", "give flumedicine 20", "give gasoline 20", "give energydrink 20", "give motoroil 20", "give megabean 20", "give chili 20", "give battery 20", "give iodine 20", "give addy 20", "give horsesemen 20"]),
-    ("Give Drug", ["give ogkush 20", "give sourdiesel 20", "give greencrack 20", "give granddaddypurple 20", "give meth 20", "give cocaine 20"]),
-    ("Give Weppon", ["give baseballbat", "give fryingpan", "give machete", "give revolver", "give m1911", "give revolverammo", "give m1911magazine"]),
+    ("Give Drug", ["give ogkush 20", "give sourdiesel 20", "give greencrack 20", "give granddaddypurple 20", "give meth 20", "give cocaine 20", "give smoothoperator 20"]),
+    ("Give Weppon", ["give baseballbat", "give fryingpan", "give machete", "give revolver", "give m1911", "give revolvercylinder", "give m1911mag", "give pumpshotgun", "give shotgunshell"]),
     ("Give Seeds", ["give ogkushseed 10", "give sourdieselseed 10", "give greencrackseed 10", "give granddaddypurpleseed 10", "give cocaseed 10"]),
-    ("Give Furniture", ["give suspensionrack", "give airpot", "give largestoragerack", "give bed","give brickpress", "give cauldron", "give chemistrystation", "give fullspectrumgrowlight", "give laboven", "give mixingstationmk2", "give packagingstationmk2"]),
+    ("Give Furniture", ["give suspensionrack", "give airpot", "give largestoragerack", "give bed","give brickpress", "give cauldron", "give chemistrystation", "give fullspectrumgrowlight", "give laboven", "give mixingstationmk2", "give packagingstationmk2", "give locker", "give goldentoilet"]),
     ("Clear Inventory", ["clearinventory"]),
     ("Change Cash", ["changecash 1000", "changecash 5000", "changecash 10000", "changecash 1000000"]),
     ("Change Balance", ["changebalance 1000", "changebalance 5000", "changebalance 10000", "changebalance 1000000"]),
     ("Add XP", ["addxp 100", "addxp 500", "addxp 1000"]),
     ("Teleport", ["teleport townhall", "teleport motel", "teleport warehouse", "teleport tacoticklers", "teleport dockswarehouse"]),
-    ("Spawn Vehicle", ["spawnvehicle veeper", "spawnvehicle shitbox", "spawnvehicle bruiser", "spawnvehicle hounddog", "spawnvehicle cheetah", "spawnvehicle dinkler"]),
+    ("Spawn Vehicle", ["spawnvehicle veeper", "spawnvehicle shitbox", "spawnvehicle bruiser", "spawnvehicle hounddog", "spawnvehicle cheetah", "spawnvehicle dinkler", "spawnvehicle shitbox_police", "spawnvehicle bruiser_police"]),
     ("Set Move Speed", ["setmovespeed 1", "setmovespeed 2", "setmovespeed 3"]),
     ("Set Jump Force", ["setjumpforce 1", "setjumpforce 2", "setjumpforce 3"]),
     ("Raise Wanted", ["raisewanted"]),
@@ -47,6 +47,10 @@ commands = [
     ("Set Time Scale", ["settimescale 1", "settimescale 2", "settimescale 3", "settimescale 5", "settimescale 10"]),
     ("Grow Plants", ["growplants"]),
     ("Clear Trash", ["cleartrash"]),
+    ("Package Product", ["packageproduct baggie", "packageproduct jar", "packageproduct brick"]),
+    ("Set quality", ["setquality trash", "setquality poor", "setquality standard", "setquality premium", "setquality heavenly"])
+
+
 ]
 
 class ModMenu:
@@ -156,3 +160,4 @@ class ModMenu:
 root = tk.Tk()
 menu = ModMenu(root)
 root.mainloop()
+
