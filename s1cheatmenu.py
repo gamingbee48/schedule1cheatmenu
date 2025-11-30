@@ -28,7 +28,7 @@ commands = [
     ("Give Item", ["give baggie 20", "give jar 10", "give extralonglifesoil 10", "give highqualitypseudo 10", "give goldenskateboard", "give spraypaint", "give graffiticleaner", "give goldbar", "give pgr", "give fertilizer", "give speedgrow"]),
     ("Give ingredient", ["give viagra 20", "give cuke 20", "give banana 20", "give paracetamol 20", "give donut 20", "give mouthwash 20", "give flumedicine 20", "give gasoline 20", "give energydrink 20", "give motoroil 20", "give megabean 20", "give chili 20", "give battery 20", "give iodine 20", "give addy 20", "give horsesemen 20"]),
     ("Give Drug", ["give ogkush 20", "give sourdiesel 20", "give greencrack 20", "give granddaddypurple 20", "give meth 20", "give cocaine 20", "give smoothoperator 20"]),
-    ("Give Weppon", ["give baseballbat", "give fryingpan", "give machete", "give revolver", "give m1911", "give revolvercylinder", "give m1911mag", "give pumpshotgun", "give shotgunshell"]),
+    ("Give Weppon", ["give baseballbat", "give fryingpan", "give machete", "give revolver", "give m1911", "give revolvercylinder", "give m1911mag", "give pumpshotgun", "give shotgunshell 10"]),
     ("Give Seeds", ["give ogkushseed 10", "give sourdieselseed 10", "give greencrackseed 10", "give granddaddypurpleseed 10", "give cocaseed 10"]),
     ("Give Furniture", ["give suspensionrack", "give airpot", "give largestoragerack", "give bed","give brickpress", "give cauldron", "give chemistrystation", "give fullspectrumgrowlight", "give laboven", "give mixingstationmk2", "give packagingstationmk2", "give locker", "give goldentoilet"]),
     ("Clear Inventory", ["clearinventory"]),
@@ -160,4 +160,5 @@ class ModMenu:
 root = tk.Tk()
 menu = ModMenu(root)
 root.mainloop()
+
 
